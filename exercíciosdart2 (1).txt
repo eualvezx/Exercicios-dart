@@ -1,0 +1,78 @@
+/*1. Faça um algoritmo com dois números inteiros e informe se eles são iguais ou diferentes.
+*/
+void main( ) {
+double num1 = 1;
+double num2 = 1;
+
+
+
+if (num1 == num2)
+{
+print('Numeros iguais');
+}
+else {
+print ('Números diferentes');
+}
+}
+
+
+
+/*2. Faça um algoritmo com o salário recebido e o total gasto. Se o valor gasto for menor ou igual ao valor do salário, deve ser exibido o a mensagem “Gastos dentro do orçamento” e o valor que está sobrando do salário. Se o valor gasto for menor que o orçamento deve ser mostrada a mensagem “Orçamento estourado” e o valor que ultrapassou o salário.*/
+
+void main( ) {
+double salario = 100;
+double gasto = 200;
+double sobra = (salario - gasto);
+double sobra1 = (gasto - salario );
+if (gasto <= salario)
+
+{
+print('Dentro do orçamernto, sobrou: ' + sobra.toString() +' reais' );
+}
+else {
+print ('Fora do orçamento, valor ultrapassado : ' + sobra1.toString() +' reais');
+}
+}
+
+
+/*3. Faça um algoritmo que com o placar de um jogo de futebol (os gols de cada time) e informe se o resultado foi a vitória foi do primeiro time, do segundo time ou um empate.*/
+void main( ) {
+double vasco = 10;
+double flamengo = 10;
+
+if (vasco > flamengo)
+{
+print ('VASCO GANHOU!');
+}
+else if (flamengo > vasco)
+{
+print ('FLAMENGO GANHOU!');
+}
+
+else {
+
+print ('EMPATE!');
+}
+}
+
+
+
+
+/*4. Escreva um algoritmo com as quatro notas obtidas por um aluno durante o ano. Calcule a sua média (nota1 + nota2 + nota3 + nota4) / 4.
+Informar sua menção: Se a média for maior ou igual a 6, o aluno está aprovado; se a média for menor que 5, o aluno está reprovado; senão o aluno está em recuperação.*/
+void main( ) {
+double media=((5+0+3+10)/4);
+if (media >= 6)
+{
+print ('aprovado!');
+}
+else if (media==5)
+{
+print ('Recuperação (passou raspando)');
+}
+else
+{
+print ('Reprovado (jumentinho)');
+}
+}
+

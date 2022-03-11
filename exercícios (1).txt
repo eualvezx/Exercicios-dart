@@ -1,0 +1,90 @@
+Exercício 1
+
+void main( ) {
+double qingresso = 10;
+double preco_ingresso = 200;
+
+double qconvite = preco_ingresso/qingresso;
+
+print ('Serao necessarios: ' + qconvite.toString () + ' ingressos');
+
+}
+
+Exercício 2
+
+void main( ) {
+double bmaior = 10;
+double bmenor = 10;
+double altura = 10;
+double area= (( bmaior + bmenor) * altura ) / 2;
+
+print ('A area do trapézio é: ' + area.toString ());
+
+}
+
+Exercício 3
+
+void main( ) {
+double lado1 = 10;
+double lado2 = 10;
+
+
+
+double area= lado1 * lado2;
+
+print ('A área quadrado é: ' + area.toString ());
+
+}
+
+Exercício 4
+
+void main( ) {
+double num1 = 10;
+double num2 = 10;
+
+
+
+
+
+double resultado= num1/num2;
+
+print ('Resultado: ' + resultado.toString ());
+
+}
+
+Exercício 5
+
+
+
+void main( ) {
+double patual = 100;
+
+double resultado= patual*0.90;
+
+print ('Preço atual: ' + resultado.toString ());
+
+}
+
+Exercício 6
+
+void main( ) {
+double sfixo = 1000;
+double venda = 100;
+
+double sfinal = sfixo + (venda * 0.04);
+
+print ('O salário final é: ' + sfinal.toString ());
+
+}
+
+Exercício 7
+
+void main( ) {
+double htb = 10;
+double ext = 10;
+
+double salario = (htb * 50) + (ext * 25);
+
+print ('O salário final é: RS ' + salario.toString () + ('.00'));
+
+}
